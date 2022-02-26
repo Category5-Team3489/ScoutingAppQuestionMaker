@@ -1,0 +1,1 @@
+public record Question(string Text, params string[] Options);
