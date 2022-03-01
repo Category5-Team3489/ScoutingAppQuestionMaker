@@ -1,5 +1,6 @@
 // Auto questions
 auto, 'Cargo loaded at start of match?', 'No', 'Yes'
+auto, 'Auto shot delayed?', 'Toaster', 'No', 'Yes'
 auto, 'Fully exited the tarmac at least once?', 'No', 'Yes'
 auto, 'Cargo in low goal?'
 auto, 'Cargo in high goal?'
