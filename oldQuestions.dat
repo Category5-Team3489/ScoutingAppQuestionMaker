@@ -1,0 +1,30 @@
+// Auto questions
+auto, 'Cargo loaded at start of match?', 'No', 'Yes'
+auto, 'Auto shot delayed?', 'Toaster', 'No', 'Yes'
+auto, 'Fully exited the tarmac at least once?', 'No', 'Yes'
+auto, 'Cargo in low goal?'
+auto, 'Cargo in high goal?'
+auto, 'Cargo missed low goal?'
+auto, 'Cargo missed high goal?'
+auto, 'Cargo in low goal from human?'
+auto, 'Cargo in high goal from human?'
+auto, 'Cargo missed from human?'
+
+// Teleop questions
+teleop, 'Cargo in low goal?'
+teleop, 'Cargo in high goal?'
+teleop, 'Cargo missed low goal?'
+teleop, 'Cargo missed high goal?'
+teleop, 'Intake method?', 'Toaster', 'Floor', 'Terminal', 'Both'
+teleop, 'Max cargo ever in robot?', 'Toaster', '1', '2', '>2'
+teleop, 'Wrong color cargo disposal?', 'No', 'Intake', 'Shooter', 'Other'
+teleop, 'How many times did they defend?'
+teleop, 'How many fouls charged against this robot?'
+
+// Endgame questions
+end, 'Has climber?', 'No', 'Yes'
+end, 'Low climb?', 'No attempt', 'Fail', 'Yes'
+end, 'Mid climb?', 'No attempt', 'Fail', 'Yes'
+end, 'High climb?', 'No attempt', 'Fail', 'Yes'
+end, 'Traversal climb?', 'No attempt', 'Fail', 'Yes'
+end, 'Length of time to climb in seconds?'
