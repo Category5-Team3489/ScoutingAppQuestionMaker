@@ -18,26 +18,6 @@
         },
         {
           id: 'AQ2',
-          questionText: 'Auto shot delayed?',
-          questionType: 2,
-          questionItems: [
-            {
-              value: 0,
-              itemText: 'Toaster'
-            },
-            {
-              value: 1,
-              itemText: 'No'
-            },
-            {
-              value: 2,
-              itemText: 'Yes'
-            }
-          ],
-          answer: 0
-        },
-        {
-          id: 'AQ3',
           questionText: 'Fully exited the tarmac at least once?',
           questionType: 2,
           questionItems: [
@@ -53,8 +33,16 @@
           answer: 0
         },
         {
+          id: 'AQ3',
+          questionText: 'Cargo scored in low goal?',
+          questionType: 1,
+          questionItems: [
+          ],
+          answer: 0
+        },
+        {
           id: 'AQ4',
-          questionText: 'Cargo in low goal?',
+          questionText: 'Cargo scored in high goal?',
           questionType: 1,
           questionItems: [
           ],
@@ -62,49 +50,21 @@
         },
         {
           id: 'AQ5',
-          questionText: 'Cargo in high goal?',
-          questionType: 1,
+          questionText: 'Human player shot cargo?',
+          questionType: 2,
           questionItems: [
-          ],
-          answer: 0
-        },
-        {
-          id: 'AQ6',
-          questionText: 'Cargo missed low goal?',
-          questionType: 1,
-          questionItems: [
-          ],
-          answer: 0
-        },
-        {
-          id: 'AQ7',
-          questionText: 'Cargo missed high goal?',
-          questionType: 1,
-          questionItems: [
-          ],
-          answer: 0
-        },
-        {
-          id: 'AQ8',
-          questionText: 'Cargo in low goal from human?',
-          questionType: 1,
-          questionItems: [
-          ],
-          answer: 0
-        },
-        {
-          id: 'AQ9',
-          questionText: 'Cargo in high goal from human?',
-          questionType: 1,
-          questionItems: [
-          ],
-          answer: 0
-        },
-        {
-          id: 'AQ10',
-          questionText: 'Cargo missed from human?',
-          questionType: 1,
-          questionItems: [
+            {
+              value: 0,
+              itemText: 'N/A'
+            },
+            {
+              value: 1,
+              itemText: 'No'
+            },
+            {
+              value: 2,
+              itemText: 'Yes'
+            }
           ],
           answer: 0
         }
@@ -129,52 +89,12 @@
         },
         {
           id: 'TQ3',
-          questionText: 'Cargo missed low goal?',
-          questionType: 1,
-          questionItems: [
-          ],
-          answer: 0
-        },
-        {
-          id: 'TQ4',
-          questionText: 'Cargo missed high goal?',
-          questionType: 1,
-          questionItems: [
-          ],
-          answer: 0
-        },
-        {
-          id: 'TQ5',
-          questionText: 'Intake method?',
-          questionType: 2,
-          questionItems: [
-            {
-              value: 0,
-              itemText: 'Toaster'
-            },
-            {
-              value: 1,
-              itemText: 'Floor'
-            },
-            {
-              value: 2,
-              itemText: 'Terminal'
-            },
-            {
-              value: 3,
-              itemText: 'Both'
-            }
-          ],
-          answer: 0
-        },
-        {
-          id: 'TQ6',
           questionText: 'Max cargo ever in robot?',
           questionType: 2,
           questionItems: [
             {
               value: 0,
-              itemText: 'Toaster'
+              itemText: '0'
             },
             {
               value: 1,
@@ -190,149 +110,41 @@
             }
           ],
           answer: 0
-        },
-        {
-          id: 'TQ7',
-          questionText: 'Wrong color cargo disposal?',
-          questionType: 2,
-          questionItems: [
-            {
-              value: 0,
-              itemText: 'No'
-            },
-            {
-              value: 1,
-              itemText: 'Intake'
-            },
-            {
-              value: 2,
-              itemText: 'Shooter'
-            },
-            {
-              value: 3,
-              itemText: 'Other'
-            }
-          ],
-          answer: 0
-        },
-        {
-          id: 'TQ8',
-          questionText: 'How many times did they defend?',
-          questionType: 1,
-          questionItems: [
-          ],
-          answer: 0
-        },
-        {
-          id: 'TQ9',
-          questionText: 'How many fouls charged against this robot?',
-          questionType: 1,
-          questionItems: [
-          ],
-          answer: 0
         }
       ],
 
       EndGame: [
         {
           id: 'EQ1',
-          questionText: 'Has climber?',
+          questionText: 'Bar climbed?',
           questionType: 2,
           questionItems: [
             {
               value: 0,
-              itemText: 'No'
+              itemText: 'No attempt'
             },
             {
               value: 1,
-              itemText: 'Yes'
+              itemText: 'Low'
+            },
+            {
+              value: 2,
+              itemText: 'Mid'
+            },
+            {
+              value: 3,
+              itemText: 'High'
+            },
+            {
+              value: 4,
+              itemText: 'Traversal'
             }
           ],
           answer: 0
         },
         {
           id: 'EQ2',
-          questionText: 'Low climb?',
-          questionType: 2,
-          questionItems: [
-            {
-              value: 0,
-              itemText: 'No attempt'
-            },
-            {
-              value: 1,
-              itemText: 'Fail'
-            },
-            {
-              value: 2,
-              itemText: 'Yes'
-            }
-          ],
-          answer: 0
-        },
-        {
-          id: 'EQ3',
-          questionText: 'Mid climb?',
-          questionType: 2,
-          questionItems: [
-            {
-              value: 0,
-              itemText: 'No attempt'
-            },
-            {
-              value: 1,
-              itemText: 'Fail'
-            },
-            {
-              value: 2,
-              itemText: 'Yes'
-            }
-          ],
-          answer: 0
-        },
-        {
-          id: 'EQ4',
-          questionText: 'High climb?',
-          questionType: 2,
-          questionItems: [
-            {
-              value: 0,
-              itemText: 'No attempt'
-            },
-            {
-              value: 1,
-              itemText: 'Fail'
-            },
-            {
-              value: 2,
-              itemText: 'Yes'
-            }
-          ],
-          answer: 0
-        },
-        {
-          id: 'EQ5',
-          questionText: 'Traversal climb?',
-          questionType: 2,
-          questionItems: [
-            {
-              value: 0,
-              itemText: 'No attempt'
-            },
-            {
-              value: 1,
-              itemText: 'Fail'
-            },
-            {
-              value: 2,
-              itemText: 'Yes'
-            }
-          ],
-          answer: 0
-        },
-        {
-          id: 'EQ6',
-          questionText: 'Length of time to climb in seconds?',
+          questionText: 'Time taken to climb?',
           questionType: 1,
           questionItems: [
           ],

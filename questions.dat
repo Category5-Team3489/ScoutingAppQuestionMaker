@@ -1,0 +1,16 @@
+// Auto questions
+auto, 'Cargo loaded at start of match?', 'No', 'Yes'
+auto, 'Fully exited the tarmac at least once?', 'No', 'Yes'
+auto, 'Cargo scored in low goal?'
+auto, 'Cargo scored in high goal?'
+auto, 'Human player shot cargo?', 'N/A', 'No', 'Yes'
+
+// Teleop questions
+teleop, 'Cargo in low goal?'
+teleop, 'Cargo in high goal?'
+// teleop, 'Intake method?', 'N/A', 'Floor', 'Terminal', 'Both'
+teleop, 'Max cargo ever in robot?', '0', '1', '2', '>2'
+
+// Endgame questions
+end, 'Bar climbed?', 'No attempt', 'Low', 'Mid', 'High', 'Traversal'
+end, 'Time taken to climb?'
