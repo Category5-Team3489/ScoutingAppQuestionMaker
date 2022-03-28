@@ -90,6 +90,22 @@
             }
           ],
           answer: 0
+        },
+        {
+          id: 'TQ4',
+          questionText: 'Was penalized at least once?',
+          questionType: 2,
+          questionItems: [
+            {
+              value: 0,
+              itemText: 'No'
+            },
+            {
+              value: 1,
+              itemText: 'Yes'
+            }
+          ],
+          answer: 0
         }
       ],
 
@@ -128,7 +144,7 @@
         },
         {
           id: 'EQ2',
-          questionText: 'Time taken to climb?',
+          questionText: 'Climbing time after entering hanging station?',
           questionType: 1,
           questionItems: [
           ],

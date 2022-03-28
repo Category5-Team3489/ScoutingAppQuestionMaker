@@ -10,8 +10,8 @@ teleop, 'Cargo in low goal?'
 teleop, 'Cargo in high goal?'
 // teleop, 'Intake method?', 'N/A', 'Floor', 'Terminal', 'Both'
 teleop, 'Max cargo ever in robot?', '0', '1', '2', '>2'
-teleop, 'Was penalized?', 'No', 'Yes'
+teleop, 'Was penalized at least once?', 'No', 'Yes'
 
 // Endgame questions
 end, 'Bar climbed?', 'No attempt', 'Failed', 'Low', 'Mid', 'High', 'Traversal'
-end, 'Time taken to climb after entering hanging station?'
+end, 'Climbing time after entering hanging station?'
